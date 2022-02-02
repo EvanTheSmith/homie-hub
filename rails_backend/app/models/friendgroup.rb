@@ -1,0 +1,3 @@
+class Friendgroup < ApplicationRecord
+
+end
