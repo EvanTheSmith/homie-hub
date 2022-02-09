@@ -1,4 +1,4 @@
 class Friend < ApplicationRecord
-    has_many :friendgroups
-    has_many :groups, through: friendgroups
+    has_many :friend_groups
+    has_many :groups, through: friend_groups
 end
